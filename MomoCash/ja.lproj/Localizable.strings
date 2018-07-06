@@ -54,7 +54,7 @@
 "\nallow camera access in\nSettings->Privacy->Camera->%@" = "\nカメラへのアクセスを有効化するには\n設定⇒プライバシー⇒カメラ⇒%@";
 
 /* No comment provided by engineer. */
-"\nDO NOT let anyone see your recovery\nphrase or they can spend your MomoCash.\n" = "何人も回復の短語を見せないでください\nを知っている人\ nは、簡単に盗むことができます。\ n";
+"\nDO NOT let anyone see your recovery\nphrase or they can spend your MomoCash.\n" = "あなたの回復フレーズが誰にも見られないようにしてください、他の人はMomoCashをあなたに与えることができます\n";
 
 /* No comment provided by engineer. */
 "\nDO NOT take a screenshot.\nScreenshots are visible to other apps\nand devices.\n" = "\nスクリーンショットをご遠慮下さい。\n他のアプリや端末に復元フレーズが\n見えてしまう危険性があります。\n";
@@ -186,28 +186,28 @@
 "couldn't sweep balance" = "全残高送金ができませんでした";
 
 /* No comment provided by engineer. */
-"couldn't transmit payment to MomoCash network" = "MomoCashネットワークにトランザクションを送信できません";
+"couldn't transmit payment to MomoCash network" = "MomoCashネットワークに支払いの送信はいけません。";
 
 /* No comment provided by engineer. */
-"MomoCash address" = "モモキャッシュ住所";
+"MomoCash address" = "MomoCashアドレス";
 
 /* No comment provided by engineer. */
-"MomoCash addresses can also be copied to the clipboard. A MomoCash address always starts with 'M'." = "財布のアドレスもクリップボードにコピーします。お財布のアドレスはいつも' M 'で始まります。";
+"MomoCash addresses can also be copied to the clipboard. A MomoCash address always starts with 'M'." = "MomoCashアドレスもクリップボードにコピーできます。MomoCashアドレスはいつも' M 'で始まります。";
 
 /* No comment provided by engineer. */
-"MomoCash network fee" = "モモカッシュ純手数料";
+"MomoCash network fee" = "MomoCashネットワーク料金";
 
 /* No comment provided by engineer. */
-"MomoCash payments can't be less than %@" = "ダッシュの送金は %@ 以上でないと送れません。";
+"MomoCash payments can't be less than %@" = "MomoCashの送金は %@ 以上でないと送れません。";
 
 /* No comment provided by engineer. */
 "MomoCash transaction not signed" = "取引が署名されていません";
 
 /* No comment provided by engineer. */
-"MomoCash transaction outputs can't be less than %@" = "MomoCashトランザクションの出力は少なくとも％@でなければなりません。";
+"MomoCash transaction outputs can't be less than %@" = "MomoCashトランザクションの産出は少なくとも％@でなければなりません。";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your MomoCash)." = "端末が危険にさらされている！ ！ ！ \ nあなたが端末を脱獄する場合は、任意の脱獄アプリケーションを使用して任意のキーチェーンにアクセスできます。 （つまり、あなたは簡単にあなたのMomoCashを盗むことができます）。";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your MomoCash)." = "端末が危険にさらされている！ ！ ！ \ nあなたが端末を脱獄する場合は、任意の脱獄アプリケーションを使用して任意のキーチェーンにアクセスできます。 （あなたのMomoCashを盗む）。";
 
 /* No comment provided by engineer. */
 "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your MomoCash). Wipe this wallet immediately and restore on a secure device." = "端末が危険にさらされている！ ！ ！ あなたがターミナルに侵入\ NIF、任意の脱獄アプリケーションは、キーチェーンにアクセスすることができますので、簡単にあなたのMomoCashの財布を盗むことができます。 このウォレットをただちに完全に削除し、セキュアな端末で復元してください。";
@@ -282,13 +282,13 @@
 "insufficient funds" = "残高不足";
 
 /* No comment provided by engineer. */
-"insufficient funds for MomoCash network fee" = "MomoCash \ nにはネットワーク料金が含まれています\ n十分な残高ではありません";
+"insufficient funds for MomoCash network fee" = "MomoCashネットワーク料金のための残高が不足";
 
 /* No comment provided by engineer. */
 "INVALID" = "無効";
 
 /* No comment provided by engineer. */
-"Let others scan this QR code to get your MomoCash address. Anyone can send MomoCash to your wallet by transferring them to your address." = "誰かにQRコードを提示する限り、送金を受け取ることができます。また、MomoCashアドレスをコピーして、直接送金することもできます。";
+"Let others scan this QR code to get your MomoCash address. Anyone can send MomoCash to your wallet by transferring them to your address." = "このQRコードをスキャンしてあなたのMomoCashアドレスを受け取りましょう！また、アドレスを転送してことで、他の人もあなたにMomoCashを与える。";
 
 /* No comment provided by engineer. */
 "minute" = "分";
@@ -524,13 +524,13 @@
 "the app will now close" = "アプリを閉じます";
 
 /* No comment provided by engineer. */
-"This is your MomoCash address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "これはあなたのMamoCelのアドレスです。それをコピーしたり、メールやメールで送信したりすることができます。あなたが資金を取得するたびに、このアドレスは変更されますが、古いアドレスはまだ利用できます。";
+"This is your MomoCash address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "これはあなたのMomoCashのアドレスです。ここにタップして、コピーしたり、メールで送信したりすることができます。あなたが資金を取得するたびに、このアドレスは変更されますが、旧アドレスはまだ利用できます。";
 
 /* No comment provided by engineer. */
 "This is your MomoCash balance." = "This is your MomoCash balance.";
 
 /* No comment provided by engineer. */
-"This is your MomoCash balance. MomoCash is a currency. The exchange rate changes with the market." = "これがあなたのダッシュ残高です。ダッシュは通貨であり、為替レートが市場の動きにより変動します。";
+"This is your MomoCash balance. MomoCash is a currency. The exchange rate changes with the market." = "これはあなたのMomoCash残高です。MomoCashは通貨であり、為替レートが市場の動きにより変動します。";
 
 /* No comment provided by engineer. */
 "this payment address is already in your wallet" = "このペイメントアドレスは既にあなたのウォレットに含まれています";
@@ -644,7 +644,8 @@
 "you must enter your pin in order to enter MomoCashwallet" = "you must enter your pin in order to enter MomoCashwallet";
 
 /* No comment provided by engineer. */
-"you received MomoCash!" = "MomoCash着金確認！";
+"you received MomoCash!" = "MomoCashを受け取りました!";
 
 /* No comment provided by engineer. */
 "Your wallet may be out of sync.\nThis can often be fixed by rescanning the blockchain." = "あなたのウォレットが同期されていない可能性があります。\nブロックチェーンの再スキャンを行うと直ることが大半です。";
+
