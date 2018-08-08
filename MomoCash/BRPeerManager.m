@@ -243,18 +243,18 @@ static const char *dns_seeds[] = {
             return _peers;
 #endif
             // if DNS peer discovery fails, fall back on a hard coded list of peers (list taken from satoshi client)
-            if (_peers.count < PEER_MAX_CONNECTIONS) {
-                UInt128 addr = { .u32 = { 0, 0, CFSwapInt32HostToBig(0xffff), 0 } };
-                
-                for (NSNumber *address in [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle]
-                                                                            pathForResource:FIXED_PEERS ofType:@"plist"]]) {
-                    // give hard coded peers a timestamp between 7 and 14 days ago
-                    addr.u32[3] = CFSwapInt32HostToBig(address.unsignedIntValue);
-                    [_peers addObject:[[BRPeer alloc] initWithAddress:addr port:MoMo_STANDARD_PORT
-                                                            timestamp:now - (7*24*60*60 + arc4random_uniform(7*24*60*60))
-                                                             services:SERVICES_NODE_NETWORK | SERVICES_NODE_BLOOM]];
-                }
-            }
+//            if (_peers.count < PEER_MAX_CONNECTIONS) {
+//                UInt128 addr = { .u32 = { 0, 0, CFSwapInt32HostToBig(0xffff), 0 } };
+//                
+//                for (NSNumber *address in [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle]
+//                                                                            pathForResource:FIXED_PEERS ofType:@"plist"]]) {
+//                    // give hard coded peers a timestamp between 7 and 14 days ago
+//                    addr.u32[3] = CFSwapInt32HostToBig(address.unsignedIntValue);
+//                    [_peers addObject:[[BRPeer alloc] initWithAddress:addr port:MoMo_STANDARD_PORT
+//                                                            timestamp:now - (7*24*60*60 + arc4random_uniform(7*24*60*60))
+//                                                             services:SERVICES_NODE_NETWORK | SERVICES_NODE_BLOOM]];
+//                }
+//            }
             
             [self sortPeers];
         }
